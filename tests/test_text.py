@@ -294,6 +294,13 @@ def test_highlight_words():
     assert count == 4
 
 
+def test_highlight_words_empty():
+    text = Text("abc")
+    count = text.highlight_words([], "red")
+    assert count == 0
+    assert text._spans == []
+
+
 def test_set_length():
     text = Text("Hello")
     text.set_length(5)

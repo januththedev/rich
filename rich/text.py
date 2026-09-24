@@ -648,6 +648,8 @@ class Text(JupyterMixin):
             int: Number of words highlighted.
         """
         re_words = "|".join(re.escape(word) for word in words)
+        if not re_words:
+            return 0
         add_span = self._spans.append
         count = 0
         _Span = Span

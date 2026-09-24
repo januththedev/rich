@@ -23,6 +23,7 @@ The following people have contributed to the development of Rich:
 - [Kai Giokas](https://github.com/kaisforza)
 - [Tom Gooding](https://github.com/TomJGooding)
 - [Michał Górny](https://github.com/mgorny)
+- [Januth Nimnal](https://github.com/januththedev)
 - [Nok Lam Chan](https://github.com/noklam)
 - [Leron Gray](https://github.com/daddycocoaman)
 - [Andre Hora](https://github.com/andrehora)
